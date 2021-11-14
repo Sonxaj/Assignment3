@@ -62,7 +62,7 @@ public class LCSRunner {
         
         System.out.println("Now time for the big test case...");
         
-        File file=new File("message.txt"); 
+        File file=new File("src/message.txt");
         FileReader fr=new FileReader(file);   //reads the file  
         BufferedReader br=new BufferedReader(fr);
          
@@ -88,7 +88,9 @@ public class LCSRunner {
         }
         
         System.out.println("****************************************");
-        
+
+        System.out.println(pass);
+
         if(pass == 4)
             System.out.println("Yay! All test cases passed!");
         else
